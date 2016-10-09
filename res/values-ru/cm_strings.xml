@@ -119,4 +119,8 @@
     <string name="face_redo_confirm_btn">Повторить</string>
     <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN-кода/пароля</string>
+
 </resources>
