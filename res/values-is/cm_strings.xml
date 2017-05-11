@@ -19,4 +19,11 @@
     <string name="show_dev_on_cm">Þú hefur virkjað þróunarstillingar!</string>
     <string name="show_dev_already_cm">Ekki nauðsynlegt, þú hefur þegar virkjað þróunarstillingar.</string>
     <string name="status_bar_double_tap_to_sleep_summary">Tvíbankaðu á stöðustikuna eða læsiskjáinn til að slökkva á skjánum</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
 </resources>

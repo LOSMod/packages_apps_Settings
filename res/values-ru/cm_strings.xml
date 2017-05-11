@@ -105,4 +105,11 @@
     <string name="greatest_tick_label">В пол-экрана</string>
     <string name="gesture_back_deadzone_label">Мертвая зона</string>
     <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панель поиска, чтобы настроить чувствительность жеста назад, последнюю панель поиска, чтобы установить мертвую зону в верхней части экрана, где свайп не может быть запущен, чтобы избежать конфликтов с жестами в приложении.</string>
+
+	    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройки вибрации во время пиздежа по мобиле</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+
 </resources>
