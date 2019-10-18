@@ -90,6 +90,14 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
+    <!-- Volume Steps -->
+    <Preference
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.android.settings.sound.VolumeSteps"
+        android:order="-139" />
+
     <!-- Link ringtone and notification volumes -->
     <lineageos.preference.SecureSettingSwitchPreference
         android:key="volume_link_notification"
