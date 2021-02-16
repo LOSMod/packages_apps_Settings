@@ -18,17 +18,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">SIM-карта недоступна</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+        <item quantity="one">Осталось <xliff:g id="step_count">%1$d</xliff:g> нажатие до автивации настроек разработчика.</item>
+        <item quantity="other">Осталось <xliff:g id="step_count">%1$d</xliff:g> нажатий до активации настроек разработчика.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Вы активировали режим разработчика!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Вы уже активировали режим разработчика!</string>
 
     <!-- Advanced keyboard settings -->	
     <string name="keyboard_extras_title">Дополнительно</string>	
@@ -39,8 +39,8 @@
     <string name="advanced_reboot_summary">После разблокировки, в меню питания доступны параметры для перезапуска в режим Recovery  или Bootloader.</string>
 
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Root отладка</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android от имени root</string>
 
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Pure black</string>
@@ -59,10 +59,10 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> вашего телефона.</string>
 
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">back</string>
-    <string name="security_settings_fingerprint_sensor_location_front">front</string>
-    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+    <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
+    <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
+    <string name="security_settings_fingerprint_sensor_location_left">на левой грани</string>
+    <string name="security_settings_fingerprint_sensor_location_right">на правой грани</string>
 
     <!-- Heads-up -->
     <string name="heads_up_notifications_enabled_title">Всплывающие уведомления</string>
@@ -73,7 +73,7 @@
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
     <!-- Hostname setting -->
-    <string name="device_hostname">Device hostname</string>
+    <string name="device_hostname">Имя хоста устройства</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Нарастающая грмкость</string>
