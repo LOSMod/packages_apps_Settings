@@ -158,7 +158,7 @@ public class SettingsBaseActivity extends FragmentActivity {
         return false;
     }
 
-    private void onCategoriesChanged() {
+    private void onCategoriesChanged(Set<String> categories) {
         final int N = mCategoryListeners.size();
         for (int i = 0; i < N; i++) {
             mCategoryListeners.get(i).onCategoriesChanged(categories);
