@@ -388,9 +388,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     protected void restartBatteryStatsLoader(@BatteryUpdateType int refreshType) {
         super.restartBatteryStatsLoader(refreshType);
         // Update battery header if battery is present.
-        if (mIsBatteryPresent) {
+       /* if (mIsBatteryPresent) {
             mBatteryHeaderPreferenceController.quickUpdateHeaderPreference();
-        }
+        } */
     }
 
     @Override
