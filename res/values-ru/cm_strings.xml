@@ -57,8 +57,8 @@
     <string name="lockscreen_media_art_title">Отображать обложку мультимедиа</string>
     <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
-    <string name="show_navbar_hint_title">Подсказки по навигации</string>
-    <string name="show_navbar_hint_summary">Показать подсказку по навигации в нижней части экрана</string>
+    <string name="show_navbar_hint_title">Панель навигации</string>
+    <string name="show_navbar_hint_summary">Показывать полосу панели навигации внизу экрана</string>
     <string name="app_notification_sound_timeout_title">Частота звуковых уведомлений</string>
     <string name="app_notification_sound_timeout_summary_template">Звуки и вибрация не чаще, чем раз в <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
@@ -104,12 +104,19 @@
     <string name="smallest_tick_label">Выкл.</string>
     <string name="greatest_tick_label">В пол-экрана</string>
     <string name="gesture_back_deadzone_label">Мертвая зона</string>
-    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панель поиска, чтобы настроить чувствительность жеста назад, последнюю панель поиска, чтобы установить мертвую зону в верхней части экрана, где свайп не может быть запущен, чтобы избежать конфликтов с жестами в приложении.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nПервая и вторая панель настраивает чувствительность жеста назад, последнюю панель - указывает часть экрана сверху, где свайп не будет работать.</string>
 
 	    <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Настройки вибрации во время разговора</string>
     <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
     <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при сбросе</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалите шаблоны лица и просканируйте вновь</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторить сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
 
 </resources>
